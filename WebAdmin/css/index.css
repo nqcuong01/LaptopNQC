@@ -1,0 +1,117 @@
+.header{
+    height: 56px;
+    background: rgb(18, 167, 236);
+    color: #fff;
+}
+.header i, p{
+    line-height: 56px;
+}
+.header-left{
+    background: rgb(18, 145, 204);
+
+}
+
+.header-left p{
+    margin: 0px;
+    text-align: center;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right p{
+    margin: 0px;
+}
+
+.nav{
+    height: 697px;
+    background-color: #000;
+    padding: 0;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav li{
+    padding: 10px 0px;
+    list-style: none;
+    background: rgb(34, 42, 46);
+    margin: 10px 5px;
+}
+
+.nav li a{
+    color: #fff;
+    padding-left: 15px;
+}
+
+.nav li a i{
+    padding-right: 10px;
+}
+
+
+.content{
+    background: rgb(201, 216, 243);
+}
+
+.content>p{
+    font-size: 24px;
+    margin: 20px;
+}
+
+.content-container{
+    background: #fff;
+    margin: 0px 20px;
+    position: relative;
+    color: #fff;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 40%;
+}
+
+.category>i{
+    font-size: 60px;
+    color: black;
+    opacity: 0.3;
+    padding: 8px;
+}
+
+.more-info  {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background:rgba(0, 0, 0, 0.185);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.more-info  :hover{
+    color: #fff;
+
+}
+
+.more-info  i{padding-left: 10px;}
+
+.xanh
+{
+    background:deepskyblue;
+}
+
+.luc{
+    background:forestgreen;
+}
+
+.vang{
+    background:orange;
+}
+
+.do{background:#ff2c41}

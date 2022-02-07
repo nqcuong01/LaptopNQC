@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form nhập thông tin</title>
+<script src="jquery.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
+<script src="ckfinder/ckfinder.js"></script>
+</head>
+
+<body>
+<form name="f1" id="f1">
+Nhập thông tin 1:<br>
+<textarea id="t1" name="t1" rows="5" cols="30"></textarea>
+<br>
+Nhập thông tin 2:<br>
+<textarea id="t2" name="t2" rows="5" cols="30"></textarea>
+</form>
+<script>
+	var ckEditor1 = CKEDITOR.replace('t1');
+	ckEditor1.config.width = 600;
+	CKFinder.setupCKEditor(ckEditor1, null, { type: 'Images' });
+	
+	var ckEditor2 = CKEDITOR.replace('t2');
+	ckEditor2.config.width = 600;
+	CKFinder.setupCKEditor(ckEditor2, null, { type: 'Images' });
+
+</script>
+</body>
+</html>
